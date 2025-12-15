@@ -1,673 +1,684 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>Career Portfolio | Single Page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="utf-8" />
+    <title>Career Portfolio | Single Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <!-- Bootstrap CSS -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-        />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-        <style>
-            body {
-                padding-top: 4.5rem;
-            }
-            .hero {
-                background: linear-gradient(135deg, #0d6efd0f, #0dcaf00f);
-                border-radius: 0.75rem;
-                padding: 2.5rem 2rem;
-                border: 1px solid #e5e5e5;
-            }
-            .section-hero {
-                padding-top: 2.5rem;
-                padding-bottom: 0.75rem;
-                border-bottom: 1px solid #e5e5e5;
-                margin-bottom: 1.5rem;
-            }
-            .portfolio-item-card {
-                height: 100%;
-            }
-            .section-anchor {
-                scroll-margin-top: 5rem;
-            }
-            .section-label {
-                font-size: 0.85rem;
-                letter-spacing: 0.08em;
-                text-transform: uppercase;
-                color: #6c757d;
-            }
-        </style>
-    </head>
-    <body>
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#overview"
-                    >{NAME} Career Portfolio</a
-                >
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#mainNavbar"
-                    aria-controls="mainNavbar"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <style>
+      body {
+        padding-top: 4.5rem;
+      }
+      .hero {
+        background: linear-gradient(135deg, #0d6efd0f, #0dcaf00f);
+        border-radius: 0.75rem;
+        padding: 2.5rem 2rem;
+        border: 1px solid #e5e5e5;
+      }
+      .section-hero {
+        padding-top: 2.5rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 1.5rem;
+      }
+      .portfolio-item-card {
+        height: 100%;
+      }
+      .section-anchor {
+        scroll-margin-top: 5rem;
+      }
+      .section-label {
+        font-size: 0.85rem;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #6c757d;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#overview">{NAME} Career Portfolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <div class="collapse navbar-collapse" id="mainNavbar">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#overview">Overview</a>
-                        </li>
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#overview">Overview</a>
+            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#employability"
-                                >Employability</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#career-planning"
-                                >Career Planning</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#technical-education"
-                                >Technical Education</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#supporting-academics"
-                                >Supporting Academics</a
-                            >
-                        </li>
-                    </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#employability">Employability</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#career-planning">Career Planning</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#technical-education"
+                >Technical Education</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#supporting-academics"
+                >Supporting Academics</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <!-- OVERVIEW / HERO -->
+      <section id="overview" class="section-anchor mt-3 mb-4">
+        <div class="hero">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-8">
+              <p class="section-label mb-1">Overview</p>
+              <h1 class="display-6 fw-semibold mb-3">
+                {NAME} Career Portfolio
+              </h1>
+              <p class="lead mb-3">
+                This page was developed as a portfolio representing my time at
+                Erie County Technical School. Each section below links out to
+                documents, reflections, evidence of career growth, and work
+                samples.
+              </p>
+              <div class="row g-3">
+                <div class="col-sm-6 col-md-4">
+                  <p class="mb-1"><strong>{NAME}</strong></p>
+                  <p class="text-muted small mb-0">
+                    Lorem ipsum dolor sit amet.
+                  </p>
                 </div>
+                <div class="col-sm-6 col-md-4">
+                  <p class="mb-1"><strong>Program</strong></p>
+                  <p class="text-muted small mb-0">
+                    Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <p class="mb-1">
+                    <strong>Grad Year</strong>
+                  </p>
+                  <p class="text-muted small mb-0">
+                    Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+              </div>
             </div>
-        </nav>
+            <div class="col-lg-4">
+              <h2 class="h5 mb-2">Mission Statement</h2>
+              <p class="mb-0 text-muted">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                consequat, orci nec egestas efficitur, dui justo elementum
+                ipsum, vitae vestibulum sem lorem sed nunc.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <main class="container">
-            <!-- OVERVIEW / HERO -->
-            <section id="overview" class="section-anchor mt-3 mb-4">
-                <div class="hero">
-                    <div class="row g-4 align-items-center">
-                        <div class="col-lg-8">
-                            <p class="section-label mb-1">Overview</p>
-                            <h1 class="display-6 fw-semibold mb-3">
-                                {NAME} Career Portfolio
-                            </h1>
-                            <p class="lead mb-3">
-                                This page was developed as a portfolio
-                                representing my time at Erie County Technical
-                                School. Each section below links out to
-                                documents, reflections, evidence of career
-                                growth, and work samples.
-                            </p>
-                            <div class="row g-3">
-                                <div class="col-sm-6 col-md-4">
-                                    <p class="mb-1"><strong>{NAME}</strong></p>
-                                    <p class="text-muted small mb-0">
-                                        Lorem ipsum dolor sit amet.
-                                    </p>
-                                </div>
-                                <div class="col-sm-6 col-md-4">
-                                    <p class="mb-1"><strong>Program</strong></p>
-                                    <p class="text-muted small mb-0">
-                                        Lorem ipsum dolor sit amet.
-                                    </p>
-                                </div>
-                                <div class="col-sm-6 col-md-4">
-                                    <p class="mb-1">
-                                        <strong>Grad Year</strong>
-                                    </p>
-                                    <p class="text-muted small mb-0">
-                                        Lorem ipsum dolor sit amet.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <h2 class="h5 mb-2">Mission Statement</h2>
-                            <p class="mb-0 text-muted">
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Sed consequat, orci nec egestas
-                                efficitur, dui justo elementum ipsum, vitae
-                                vestibulum sem lorem sed nunc.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+      <!-- ABOUT ME -->
+      <section id="aboutme" class="section-anchor mb-5">
+        <div class="section-hero">
+          <!--<p class="section-label mb-1">Section 0</p>-->
+          <h2 class="h4 mb-1">About Me</h2>
+          <p class="mb-0 text-muted">First, let me tell you about myself.</p>
+        </div>
 
-            <!-- ABOUT ME -->
-            <section id="aboutme" class="section-anchor mb-5">
-                <div class="section-hero">
-                    <!--<p class="section-label mb-1">Section 0</p>-->
-                    <h2 class="h4 mb-1">About Me</h2>
-                    <p class="mb-0 text-muted">
-                        First, let me tell you about myself.
-                    </p>
-                </div>
+        <div class="row g-4">
+          <!-- Resume -->
+          <div class="col-12">
+            <div class="card portfolio-item-card">
+              <div
+                class="card-body d-flex flex-column flex-md-row align-items-start"
+              >
+                <!-- Image (left on md+, top on small) -->
+                <img
+                  src="https://placehold.co/300x400"
+                  alt=""
+                  class="img-fluid me-md-3 mb-3 mb-md-0 flex-shrink-0 mx-auto"
+                  style="max-width: 300px"
+                />
 
-                <div class="row g-4">
-                    <!-- Resume -->
-                    <div class="col-12">
-                        <div class="card portfolio-item-card">
-                            <div
-                                class="card-body d-flex flex-column flex-md-row align-items-start"
-                            >
-                                <!-- Image (left on md+, top on small) -->
-                                <img
-                                    src="https://placehold.co/300x400"
-                                    alt=""
-                                    class="img-fluid me-md-3 mb-3 mb-md-0 flex-shrink-0 mx-auto"
-                                    style="max-width: 300px"
-                                />
-
-                                <!-- Text -->
-                                <p class="mb-0">
-                                    Lorem ipsum, dolor sit amet consectetur
-                                    adipisicing elit. Ratione natus quae nam
-                                    debitis dolorum provident cum, corporis
-                                    voluptates nulla aliquid, qui eaque minus
-                                    culpa quos quasi distinctio facilis dolore
-                                    consequatur ipsa totam tempore voluptatem
-                                    earum maiores amet? Similique labore commodi
-                                    modi dolorum quis unde fugiat corporis ad
-                                    consequuntur voluptatum illo velit accusamus
-                                    facere fugit ducimus esse saepe laborum
-                                    eveniet libero, sit ea. Quam quibusdam
-                                    itaque voluptate iste fuga. Animi, illo.
-                                    Doloremque at dolores eum eos maiores! Omnis
-                                    cumque non, deserunt id facere ab in nisi.
-                                    Velit non enim, obcaecati dolore eaque
-                                    mollitia porro excepturi alias dolorum,
-                                    nihil quo pariatur? Saepe molestiae, ut
-                                    incidunt error alias exercitationem
-                                    distinctio aut quasi consequatur sunt
-                                    mollitia recusandae reprehenderit animi
-                                    officia quod placeat suscipit obcaecati
-                                    neque veritatis! Voluptate ab iure, ad autem
-                                    dolore rem magni repellat eos? Voluptates a
-                                    reiciendis sunt in tempore eos fugit aliquid
-                                    temporibus dolor assumenda blanditiis sed,
-                                    dolorem, dolores dolore, repellat nulla
-                                    culpa! Voluptate, a commodi, unde
-                                    laudantium, quod odit quas tempora rerum
-                                    omnis magni hic temporibus quasi delectus
-                                    beatae? Nisi quo quis aspernatur dignissimos
-                                    nobis magnam nihil doloremque reprehenderit
-                                    accusantium, a delectus possimus sed eum
-                                    eveniet, libero molestias doloribus eius
-                                    illo ea. Consequuntur vel laboriosam minima,
-                                    cupiditate unde iusto eos.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- EMPLOYABILITY -->
-            <section id="employability" class="section-anchor mb-5">
-                <div class="section-hero">
-                    <p class="section-label mb-1">Section 1</p>
-                    <h2 class="h4 mb-1">Employability</h2>
-                    <p class="mb-0 text-muted">
-                        Store your resume, cover letter, recommendations,
-                        applications, and introductions. Each card can link out
-                        to a Google Doc, PDF, slide deck, or video.
-                    </p>
-                </div>
-
-                <div class="row g-4">
-                    <!-- Resume -->
-                    <div class="col-md-6 col-xl-3">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body d-flex flex-column">
-                                <h3 class="h5 card-title mb-2">Resume</h3>
-                                <p class="small text-muted mb-3">
-                                    A copy of my most recent resume.
-                                </p>
-                                <p class="mb-1"><strong>Link:</strong></p>
-                                <p class="mb-2">
-                                    <a href="#" class="link-primary"
-                                        >https://lorem.ipsum/resume</a
-                                    >
-                                </p>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Cover Letter -->
-                    <div class="col-md-6 col-xl-3">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body d-flex flex-column">
-                                <h3 class="h5 card-title mb-2">Cover Letter</h3>
-                                <p class="small text-muted mb-3">
-                                    Professional cover letter for a job or
-                                    program in your field.
-                                </p>
-                                <p class="mb-1"><strong>Link:</strong></p>
-                                <p class="mb-2">
-                                    <a href="#" class="link-primary"
-                                        >https://lorem.ipsum/cover-letter</a
-                                    >
-                                </p>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Recommendations -->
-                    <div class="col-md-6 col-xl-3">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body d-flex flex-column">
-                                <h3 class="h5 card-title mb-2">
-                                    Recommendations
-                                </h3>
-                                <p class="small text-muted mb-3">
-                                    Store links to letters or recommendation
-                                    forms from teachers, employers, etc.
-                                </p>
-                                <p class="mb-1"><strong>Links:</strong></p>
-                                <ul class="small mb-2">
-                                    <li>
-                                        <a href="#" class="link-primary"
-                                            >https://lorem.ipsum/recommendation-1</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a href="#" class="link-primary"
-                                            >https://lorem.ipsum/recommendation-2</a
-                                        >
-                                    </li>
-                                </ul>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Applications / Forms -->
-                    <div class="col-md-6 col-xl-3">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body d-flex flex-column">
-                                <h3 class="h5 card-title mb-2">
-                                    Applications / Forms
-                                </h3>
-                                <p class="small text-muted mb-3">
-                                    Standard employment application or other
-                                    required forms.
-                                </p>
-                                <p class="mb-1"><strong>Link:</strong></p>
-                                <p class="mb-2">
-                                    <a href="#" class="link-primary"
-                                        >https://lorem.ipsum/application</a
-                                    >
-                                </p>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- CAREER PLANNING -->
-            <section id="career-planning" class="section-anchor mb-5">
-                <div class="section-hero">
-                    <p class="section-label mb-1">Section 2</p>
-                    <h2 class="h4 mb-1">Career Planning</h2>
-                    <p class="mb-0 text-muted">
-                        Host your post-secondary plan, career research, and
-                        reflections on your future.
-                    </p>
-                </div>
-
-                <div class="row g-4">
-                    <!-- Post-Secondary Plan -->
-                    <div class="col-md-6 col-xl-4">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body">
-                                <h3 class="h5 card-title mb-2">
-                                    Post-Secondary Plan
-                                </h3>
-                                <p class="small text-muted mb-3">
-                                    A document that explains your plan after
-                                    graduation.
-                                </p>
-                                <p class="mb-1"><strong>Link:</strong></p>
-                                <p class="mb-2">
-                                    <a href="#" class="link-primary"
-                                        >https://lorem.ipsum/post-secondary-plan</a
-                                    >
-                                </p>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Career Research -->
-                    <div class="col-md-6 col-xl-4">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body">
-                                <h3 class="h5 card-title mb-2">
-                                    Career Research
-                                </h3>
-                                <p class="small text-muted mb-3">
-                                    Projects, reports, or slides that explore
-                                    careers you’re interested in.
-                                </p>
-                                <p class="mb-1"><strong>Links:</strong></p>
-                                <ul class="small mb-2">
-                                    <li>
-                                        <a href="#" class="link-primary"
-                                            >https://lorem.ipsum/career-research-1</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a href="#" class="link-primary"
-                                            >https://lorem.ipsum/career-research-2</a
-                                        >
-                                    </li>
-                                </ul>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Career Reflection -->
-                    <div class="col-md-6 col-xl-4">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body">
-                                <h3 class="h5 card-title mb-2">
-                                    Career Reflection
-                                </h3>
-                                <p class="small text-muted mb-3">
-                                    Reflection that connects your experiences to
-                                    your chosen career path.
-                                </p>
-                                <p class="mb-1"><strong>Link:</strong></p>
-                                <p class="mb-2">
-                                    <a href="#" class="link-primary"
-                                        >https://lorem.ipsum/career-reflection</a
-                                    >
-                                </p>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- TECHNICAL EDUCATION -->
-            <section id="technical-education" class="section-anchor mb-5">
-                <div class="section-hero">
-                    <p class="section-label mb-1">Section 3</p>
-                    <h2 class="h4 mb-1">Technical Education</h2>
-                    <p class="mb-0 text-muted">
-                        Showcase your best technical work: projects, code
-                        samples, certifications, and work-based learning
-                        experiences.
-                    </p>
-                </div>
-
-                <div class="row g-4">
-                    <!-- Signature Project 1 -->
-                    <div class="col-md-6 col-xl-3">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body">
-                                <h3 class="h5 card-title mb-2">
-                                    Signature Project 1
-                                </h3>
-                                <p class="small text-muted mb-3">
-                                    Your strongest technical project (code,
-                                    build, or presentation).
-                                </p>
-                                <p class="mb-1"><strong>Link:</strong></p>
-                                <p class="mb-2">
-                                    <a href="#" class="link-primary"
-                                        >https://lorem.ipsum/project-1</a
-                                    >
-                                </p>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Signature Project 2 -->
-                    <div class="col-md-6 col-xl-3">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body">
-                                <h3 class="h5 card-title mb-2">
-                                    Signature Project 2
-                                </h3>
-                                <p class="small text-muted mb-3">
-                                    A second major project that highlights
-                                    different strengths.
-                                </p>
-                                <p class="mb-1"><strong>Link:</strong></p>
-                                <p class="mb-2">
-                                    <a href="#" class="link-primary"
-                                        >https://lorem.ipsum/project-2</a
-                                    >
-                                </p>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Certifications / Tests -->
-                    <div class="col-md-6 col-xl-3">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body">
-                                <h3 class="h5 card-title mb-2">
-                                    Certifications / Tests
-                                </h3>
-                                <p class="small text-muted mb-3">
-                                    Industry certifications, technical tests, or
-                                    NOCTI results (if applicable).
-                                </p>
-                                <p class="mb-1"><strong>Links:</strong></p>
-                                <ul class="small mb-2">
-                                    <li>
-                                        <a href="#" class="link-primary"
-                                            >https://lorem.ipsum/cert-1</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a href="#" class="link-primary"
-                                            >https://lorem.ipsum/cert-2</a
-                                        >
-                                    </li>
-                                </ul>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Work-Based Learning -->
-                    <div class="col-md-6 col-xl-3">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body">
-                                <h3 class="h5 card-title mb-2">
-                                    Work-Based Learning
-                                </h3>
-                                <p class="small text-muted mb-3">
-                                    Evidence from co-op, job shadowing,
-                                    internships, or service projects.
-                                </p>
-                                <p class="mb-1"><strong>Links:</strong></p>
-                                <ul class="small mb-2">
-                                    <li>
-                                        <a href="#" class="link-primary"
-                                            >https://lorem.ipsum/wbl-1</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a href="#" class="link-primary"
-                                            >https://lorem.ipsum/wbl-2</a
-                                        >
-                                    </li>
-                                </ul>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- SUPPORTING ACADEMICS -->
-            <section id="supporting-academics" class="section-anchor mb-5">
-                <div class="section-hero">
-                    <p class="section-label mb-1">Section 4</p>
-                    <h2 class="h4 mb-1">Supporting Academics</h2>
-                    <p class="mb-0 text-muted">
-                        Add academic work that supports your career goals and
-                        shows your readiness for college, training, or
-                        employment.
-                    </p>
-                </div>
-
-                <div class="row g-4">
-                    <!-- ELA / Writing Sample -->
-                    <div class="col-md-6 col-xl-4">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body">
-                                <h3 class="h5 card-title mb-2">
-                                    ELA / Writing Sample
-                                </h3>
-                                <p class="small text-muted mb-3">
-                                    A strong piece of writing that demonstrates
-                                    communication skills.
-                                </p>
-                                <p class="mb-1"><strong>Link:</strong></p>
-                                <p class="mb-2">
-                                    <a href="#" class="link-primary"
-                                        >https://lorem.ipsum/ela-sample</a
-                                    >
-                                </p>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Math / Science Evidence -->
-                    <div class="col-md-6 col-xl-4">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body">
-                                <h3 class="h5 card-title mb-2">
-                                    Math / Science Evidence
-                                </h3>
-                                <p class="small text-muted mb-3">
-                                    Project, lab, or assignment that shows
-                                    problem-solving and reasoning.
-                                </p>
-                                <p class="mb-1"><strong>Link:</strong></p>
-                                <p class="mb-2">
-                                    <a href="#" class="link-primary"
-                                        >https://lorem.ipsum/math-science</a
-                                    >
-                                </p>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Additional Academic Artifact -->
-                    <div class="col-md-6 col-xl-4">
-                        <div class="card portfolio-item-card">
-                            <div class="card-body">
-                                <h3 class="h5 card-title mb-2">
-                                    Additional Academic Artifact
-                                </h3>
-                                <p class="small text-muted mb-3">
-                                    Any other academic work that supports your
-                                    story and goals.
-                                </p>
-                                <p class="mb-1"><strong>Link:</strong></p>
-                                <p class="mb-2">
-                                    <a href="#" class="link-primary"
-                                        >https://lorem.ipsum/additional-artifact</a
-                                    >
-                                </p>
-                                <p class="mb-1"><strong>Notes:</strong></p>
-                                <p class="text-muted small mb-0">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- FOOTER -->
-            <footer class="py-4 border-top mb-3">
-                <p class="small text-muted mb-0 text-center">
-                    Career Portfolio • Single Page Template
+                <!-- Text -->
+                <p class="mb-0">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ratione natus quae nam debitis dolorum provident cum, corporis
+                  voluptates nulla aliquid, qui eaque minus culpa quos quasi
+                  distinctio facilis dolore consequatur ipsa totam tempore
+                  voluptatem earum maiores amet? Similique labore commodi modi
+                  dolorum quis unde fugiat corporis ad consequuntur voluptatum
+                  illo velit accusamus facere fugit ducimus esse saepe laborum
+                  eveniet libero, sit ea. Quam quibusdam itaque voluptate iste
+                  fuga. Animi, illo. Doloremque at dolores eum eos maiores!
+                  Omnis cumque non, deserunt id facere ab in nisi. Velit non
+                  enim, obcaecati dolore eaque mollitia porro excepturi alias
+                  dolorum, nihil quo pariatur? Saepe molestiae, ut incidunt
+                  error alias exercitationem distinctio aut quasi consequatur
+                  sunt mollitia recusandae reprehenderit animi officia quod
+                  placeat suscipit obcaecati neque veritatis! Voluptate ab iure,
+                  ad autem dolore rem magni repellat eos? Voluptates a
+                  reiciendis sunt in tempore eos fugit aliquid temporibus dolor
+                  assumenda blanditiis sed, dolorem, dolores dolore, repellat
+                  nulla culpa! Voluptate, a commodi, unde laudantium, quod odit
+                  quas tempora rerum omnis magni hic temporibus quasi delectus
+                  beatae? Nisi quo quis aspernatur dignissimos nobis magnam
+                  nihil doloremque reprehenderit accusantium, a delectus
+                  possimus sed eum eveniet, libero molestias doloribus eius illo
+                  ea. Consequuntur vel laboriosam minima, cupiditate unde iusto
+                  eos.
                 </p>
-            </footer>
-        </main>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+      <!-- EMPLOYABILITY -->
+      <section id="employability" class="section-anchor mb-5">
+        <div class="section-hero">
+          <p class="section-label mb-1">Section 1</p>
+          <h2 class="h4 mb-1">Employability</h2>
+          <p class="mb-0 text-muted">
+            Store your resume, cover letter, recommendations, applications, and
+            introductions. Each card can link out to a Google Doc, PDF, slide
+            deck, or video.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Resume -->
+          <div class="col-md-6 col-xl-3">
+            <div class="card portfolio-item-card">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title mb-2">Resume</h3>
+                <p class="small text-muted mb-3">
+                  A copy of my most recent resume.
+                </p>
+                <p class="mb-1"><strong>Link:</strong></p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/resume</a
+                  >
+                </p>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cover Letter -->
+          <div class="col-md-6 col-xl-3">
+            <div class="card portfolio-item-card">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title mb-2">Cover Letter</h3>
+                <p class="small text-muted mb-3">
+                  Professional cover letter for a job or program in your field.
+                </p>
+                <p class="mb-1"><strong>Link:</strong></p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/cover-letter</a
+                  >
+                </p>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recommendations -->
+          <div class="col-md-6 col-xl-3">
+            <div class="card portfolio-item-card">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title mb-2">Recommendations</h3>
+                <p class="small text-muted mb-3">
+                  Store links to letters or recommendation forms from teachers,
+                  employers, etc.
+                </p>
+                <p class="mb-1"><strong>Links:</strong></p>
+                <ul class="small mb-2">
+                  <li>
+                    <a href="#" class="link-primary"
+                      >https://lorem.ipsum/recommendation-1</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="link-primary"
+                      >https://lorem.ipsum/recommendation-2</a
+                    >
+                  </li>
+                </ul>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Applications / Forms -->
+          <div class="col-md-6 col-xl-3">
+            <div class="card portfolio-item-card">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title mb-2">Applications / Forms</h3>
+                <p class="small text-muted mb-3">
+                  Standard employment application or other required forms.
+                </p>
+                <p class="mb-1"><strong>Link:</strong></p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/application</a
+                  >
+                </p>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CAREER PLANNING -->
+      <section id="career-planning" class="section-anchor mb-5">
+        <div class="section-hero">
+          <p class="section-label mb-1">Section 2</p>
+          <h2 class="h4 mb-1">Career Planning</h2>
+          <p class="mb-0 text-muted">
+            Host your post-secondary plan and reflections on your future.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Post-Secondary Plan -->
+          <div class="col-md-6 col-xl-4">
+            <div class="card portfolio-item-card">
+              <div class="card-body">
+                <h3 class="h5 card-title mb-2">Post-Secondary Plan</h3>
+                <p class="small text-muted mb-3">
+                  A document that explains your plan after graduation.
+                </p>
+                <p class="mb-1"><strong>Link:</strong></p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/post-secondary-plan</a
+                  >
+                </p>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Career Reflection -->
+          <div class="col-md-6 col-xl-4">
+            <div class="card portfolio-item-card">
+              <div class="card-body">
+                <h3 class="h5 card-title mb-2">Career Reflection</h3>
+                <p class="small text-muted mb-3">
+                  Reflection that connects your experiences to your chosen
+                  career path.
+                </p>
+                <p class="mb-1"><strong>Link:</strong></p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/career-reflection</a
+                  >
+                </p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/career-reflection</a
+                  >
+                </p>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <div class="card portfolio-item-card">
+              <div class="card-body">
+                <h3 class="h5 card-title mb-2">Career Safe Lv. 1</h3>
+                <p class="small text-muted mb-3">
+                  Level 1 Career Safe Courses you have taken, these courses
+                  include: Teamwork, Interview Skills Certifications or Time
+                  Management.
+                </p>
+                <p class="mb-1"><strong>Links:</strong></p>
+                <ul class="small mb-2">
+                  <li>
+                    <a href="#" class="link-primary"
+                      >https://lorem.ipsum/career-research-1</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="link-primary"
+                      >https://lorem.ipsum/career-research-2</a
+                    >
+                  </li>
+                </ul>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Career Research -->
+      </section>
+
+      <!-- TECHNICAL EDUCATION -->
+      <section id="technical-education" class="section-anchor mb-5">
+        <div class="section-hero">
+          <p class="section-label mb-1">Section 3</p>
+          <h2 class="h4 mb-1">Technical Education</h2>
+          <p class="mb-0 text-muted">
+            Showcase your best technical work: projects, code samples,
+            certifications, and work-based learning experiences.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Signature Project 1 -->
+          <div class="col-md-6 col-xl-3">
+            <div class="card portfolio-item-card">
+              <div class="card-body">
+                <h3 class="h5 card-title mb-2">Work Sample</h3>
+                <p class="small text-muted mb-3">
+                  5 good examples of projects that you worked on.
+                </p>
+                <p class="mb-1"><strong>Link:</strong></p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/project-1</a
+                  >
+                </p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/project-1</a
+                  >
+                </p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/project-1</a
+                  >
+                </p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/project-1</a
+                  >
+                </p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/project-1</a
+                  >
+                </p>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Signature Project 2 -->
+          <div class="col-md-6 col-xl-3">
+            <div class="card portfolio-item-card">
+              <div class="card-body">
+                <h3 class="h5 card-title mb-2">Credentials</h3>
+                <p class="small text-muted mb-3">
+                  Provide any Industry Recognized Credentials here.
+                </p>
+                <p class="mb-1"><strong>Link:</strong></p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/project-2</a
+                  >
+                </p>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications / Tests -->
+          <div class="col-md-6 col-xl-3">
+            <div class="card portfolio-item-card">
+              <div class="card-body">
+                <h3 class="h5 card-title mb-2">Career Safe Lv.2</h3>
+                <p class="small text-muted mb-3">
+                  Level 2 Career Safe Courses you have taken, these courses
+                  include: Cybersecurity, Materials Management, or Critical
+                  Thinking.
+                </p>
+                <p class="mb-1"><strong>Links:</strong></p>
+                <ul class="small mb-2">
+                  <li>
+                    <a href="#" class="link-primary"
+                      >https://lorem.ipsum/cert-1</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="link-primary"
+                      >https://lorem.ipsum/cert-2</a
+                    >
+                  </li>
+                </ul>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-3">
+            <div class="card portfolio-item-card">
+              <div class="card-body">
+                <h3 class="h5 card-title mb-2">Career Safe Lv.3</h3>
+                <p class="small text-muted mb-3">
+                  Level 3 Career Safe Courses you have taken, these courses
+                  include: Human Resource Management, Communication Skills,
+                  Written Communication.
+                </p>
+                <p class="mb-1"><strong>Links:</strong></p>
+                <ul class="small mb-2">
+                  <li>
+                    <a href="#" class="link-primary"
+                      >https://lorem.ipsum/cert-1</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="link-primary"
+                      >https://lorem.ipsum/cert-2</a
+                    >
+                  </li>
+                </ul>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Work-Based Learning -->
+          <div class="col-md-6 col-xl-3">
+            <div class="card portfolio-item-card">
+              <div class="card-body">
+                <h3 class="h5 card-title mb-2">Growth Reflection</h3>
+                <p class="small text-muted mb-3">
+                  Evidence from co-op, job shadowing, internships, or service
+                  projects.
+                </p>
+                <p class="mb-1"><strong>Links:</strong></p>
+                <ul class="small mb-2">
+                  <li>
+                    <a href="#" class="link-primary"
+                      >https://lorem.ipsum/wbl-1</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="link-primary"
+                      >https://lorem.ipsum/wbl-2</a
+                    >
+                  </li>
+                </ul>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SUPPORTING ACADEMICS -->
+      <section id="supporting-academics" class="section-anchor mb-5">
+        <div class="section-hero">
+          <p class="section-label mb-1">Section 4</p>
+          <h2 class="h4 mb-1">Supporting Academics</h2>
+          <p class="mb-0 text-muted">
+            Add academic work that supports your career goals and shows your
+            readiness for college, training, or employment.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- ELA / Writing Sample -->
+          <div class="col-md-6 col-xl-4">
+            <div class="card portfolio-item-card">
+              <div class="card-body">
+                <h3 class="h5 card-title mb-2">Course Sequence Chart</h3>
+                <p class="small text-muted mb-3">
+                  Provide a Course Sequence Chart.
+                </p>
+                <p class="mb-1"><strong>Link:</strong></p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/ela-sample</a
+                  >
+                </p>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Math / Science Evidence -->
+          <div class="col-md-6 col-xl-4">
+            <div class="card portfolio-item-card">
+              <div class="card-body">
+                <h3 class="h5 card-title mb-2">Career Safe</h3>
+                <p class="small text-muted mb-3">
+                  Any remaining Career Safe Courses you have taken, these could
+                  include: Workplace Financial Management, Personal Financial
+                  Management
+                </p>
+                <p class="mb-1"><strong>Link:</strong></p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/math-science</a
+                  >
+                </p>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Additional Academic Artifact -->
+          <div class="col-md-6 col-xl-4">
+            <div class="card portfolio-item-card">
+              <div class="card-body">
+                <h3 class="h5 card-title mb-2">Awards/Extracurriculars</h3>
+                <p class="small text-muted mb-3">
+                  Provide any Awards, Extracurriculars, and Service Experiences
+                  you have.
+                </p>
+                <p class="mb-1"><strong>Link:</strong></p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/additional-artifact</a
+                  >
+                </p>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-xl-4">
+            <div class="card portfolio-item-card">
+              <div class="card-body">
+                <h3 class="h5 card-title mb-2">Reflection (Optional)</h3>
+                <p class="small text-muted mb-3">
+                  Provide a reflection of your experiences at your Home School
+                </p>
+                <p class="mb-1"><strong>Link:</strong></p>
+                <p class="mb-2">
+                  <a href="#" class="link-primary"
+                    >https://lorem.ipsum/additional-artifact</a
+                  >
+                </p>
+                <p class="mb-1"><strong>Notes:</strong></p>
+                <p class="text-muted small mb-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="py-4 border-top mb-3">
+        <p class="small text-muted mb-0 text-center">
+          Career Portfolio • Single Page Template
+        </p>
+      </footer>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
